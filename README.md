@@ -12,6 +12,13 @@ El proyecto se dividirá en 2 partes.
 
 2) Un Blog/foro/wiki con el objetivo de generar más información detallada sobre cada uno de los lugares mostrados en el mapa.
 
+## Requisitos
+- Contar con un editor de código instalado como puede ser Sublime Text, Atom, Brackets, Notepad++, Vim, Emacs y otro que sea de tu preferencia.
+- Instalar `Python 3` en tu laptop, para ello sugerimos descargar Miniconda para Python 3.7 para tu sistema operativo e instalarlo con las opciones por default.
+- `Miniconda`: Para instalar Python en las plataformas Windows, Mac OS y Linux con características homogéneas. https://conda.io/miniconda.html (Para descargas) https://conda.io/docs/user-guide/install/index.html (Instrucciones de instalación para cada sistema operativo)
+- `Django`: Un framework de desarrollo web de código abierto, escrito en Python, que respeta el patrón de diseño conocido como Modelo–Vista–Template.
+
+
 ## ¿Cómo colaborar?
 
 Si te interesa colaborar en este proyecto puedes unirte a nuestro grupo en Telegram.

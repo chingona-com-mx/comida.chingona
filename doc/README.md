@@ -36,3 +36,4 @@ Acá podrás ver un indice de los temas que hay en esta carpeta
 
 - [¿Qué es Git y cómo se usa?](001_que_es_git.md)
 - [Clonar repositorio de Comida Chingona](002_clonar_repo.md)
+- [Instalar miniconda](003_instalar_miniconda.md)
