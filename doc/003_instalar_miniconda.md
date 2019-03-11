@@ -27,9 +27,8 @@ conda
 
 ## Instalar django
 conda install django
-
+```
 # Vídeo
-
 [![asciicast](https://asciinema.org/a/mCQPsWBpKJVX0gQpwGwiNcvax.svg)](https://asciinema.org/a/mCQPsWBpKJVX0gQpwGwiNcvax)
 
 
