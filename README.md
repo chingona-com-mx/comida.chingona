@@ -13,6 +13,7 @@ El proyecto se dividirá en 2 partes.
 2) Un Blog/foro/wiki con el objetivo de generar más información detallada sobre cada uno de los lugares mostrados en el mapa.
 
 ## Requisitos
+
 - Contar con un editor de código instalado como puede ser Sublime Text, Atom, Brackets, Notepad++, Vim, Emacs y otro que sea de tu preferencia.
 - Instalar `Python 3` en tu laptop, para ello sugerimos descargar Miniconda para Python 3.7 para tu sistema operativo e instalarlo con las opciones por default.
 - `Miniconda`: Para instalar Python en las plataformas Windows, Mac OS y Linux con características homogéneas. https://conda.io/miniconda.html (Para descargas) https://conda.io/docs/user-guide/install/index.html (Instrucciones de instalación para cada sistema operativo)
@@ -37,8 +38,8 @@ Otro de los objetivos de este proyecto es aprender a programar, reunir conocimie
 
 ## Otros proyectos, cursos, talleres.
 
-Para conocer más proyectos, puedes darte una vuelta por el repo de [Pytyhon México](https://github.com/rctorr/PythonMexico)
+Para conocer más proyectos, puedes darte una vuelta por el repo de [Python México](https://github.com/rctorr/PythonMexico)
 
 ## Contribuidores
 
-Al ser un proyecto comunitarios es dificil agrader a una sola persona, porque seguramente habrá muchas contribuciones, mejor mira las [estadísticas del repo](https://github.com/pixelead0/comida.chingona/graphs/contributors) gracias a cada uno por poner su granito de arena.
+Al ser un proyecto comunitarios es dificil agradecer a una sola persona, porque seguramente habrá muchas contribuciones, mejor mira las [estadísticas del repo](https://github.com/pixelead0/comida.chingona/graphs/contributors) gracias a cada uno por poner su granito de arena.
