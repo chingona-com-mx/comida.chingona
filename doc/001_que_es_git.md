@@ -1,4 +1,5 @@
-## ¿Qué es Git y cómo se usa? ##
+## ¿Qué es Git y cómo se usa?
+
 Texto original de: [Gunnar Wolf](https://github.com/gwolf/sistop-2018-2)
 
 La razón para utilizar un árbol *Git* es que se vayan familiarizando
@@ -47,4 +48,3 @@ en tanto red social. Como sea, los invito a leer un artículo llamado
 de GitHub_) para profundizar un poco en esta cuestión, que va desde lo
 técnico hasta lo ideológico, desde la historia comparable de otros
 espacios similares hasta meras suposiciones.
-

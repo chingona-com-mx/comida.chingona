@@ -6,8 +6,8 @@
 - `Miniconda`: Para instalar Python en las plataformas Windows, Mac OS y Linux con características homogéneas. https://conda.io/miniconda.html (Para descargas) https://conda.io/docs/user-guide/install/index.html (Instrucciones de instalación para cada sistema operativo)
 - `Django`: Un framework de desarrollo web de código abierto, escrito en Python, que respeta el patrón de diseño conocido como Modelo–Vista–Template.
 
-
 ## Pasos para instalar Miniconda desde linux
+
 ```
 # Descargar miniconda con `python 3.7`
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -28,7 +28,7 @@ conda
 ## Instalar django
 conda install django
 ```
-# Vídeo
+
+## Vídeo
+
 [![asciicast](https://asciinema.org/a/mCQPsWBpKJVX0gQpwGwiNcvax.svg)](https://asciinema.org/a/mCQPsWBpKJVX0gQpwGwiNcvax)
-
-
