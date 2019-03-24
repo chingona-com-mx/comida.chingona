@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Translations
+*.mo
+
+# Django static files
+src/static/
+
+# Files for customer
+src/locale/*/LC_MESSAGES/django.po
