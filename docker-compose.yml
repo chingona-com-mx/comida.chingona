@@ -1,0 +1,19 @@
+version: '2'
+services:
+  db:
+      image: postgres
+      restart: always
+      ports:
+        - "5432:5432"
+      environment:
+        POSTGRES_USER: comida_chingona
+        POSTGRES_PASSWORD: tengohambre
+        POSTGRES_DB: comida_chingona
+  web:
+    build: .
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    container_name: comida_chingona
+    volumes:
+      - ./src:/src
+    ports:
+      - "8000:8000"
