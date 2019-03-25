@@ -9,6 +9,8 @@ ENV PYTHONDONTWRITEBYTECODE 1
 
 # create root directory for our project in the container
 RUN mkdir /src
+RUN apt-get -y update
+RUN apt-get -y install binutils libproj-dev gdal-bin
 
 # Set the working directory to /src
 WORKDIR /src
