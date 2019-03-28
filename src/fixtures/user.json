@@ -1,0 +1,20 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$120000$Q0BH24WdomPL$YfT/La6EioJJt8RrJJWq0cRr52InZsoGKc0J19k9HUk=",
+            "last_login": "2019-03-25T16:47:03.555Z",
+            "is_superuser": true,
+            "username": "comelon",
+            "first_name": "Comida",
+            "last_name": "Chingona",
+            "email": "comida@chingona.com.mx",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-03-25T16:46:52.265Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

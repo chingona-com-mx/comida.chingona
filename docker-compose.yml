@@ -13,7 +13,7 @@ services:
     build: .
     # Se crea usuario administrador (user: comelon psw:tengohambre)
     # Siempre se va a sobreescribir el usuario.
-    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py loaddata user.json && python manage.py runserver 0.0.0.0:8000"
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py loaddata fixtures/user.json && python manage.py runserver 0.0.0.0:8000"
     # Si no quieres que se sobreesciba el usuario admin descomenta la sig line y comenta la anterior.
     # command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
     container_name: comida_chingona
