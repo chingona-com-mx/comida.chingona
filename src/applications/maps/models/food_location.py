@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
-#from django.contrib.gis.db import models as gis_models
+from django.contrib.gis.db import models as gis_models
 from django.core.validators import URLValidator
 
 import logging
@@ -58,16 +58,17 @@ class FoodLocation(models.Model):
         default=''
     )
 
-    #location = gis_models.PointField(
-    #    verbose_name=_('longitud/latitud'),
-    #    geography=True,
-    #    blank=True,
-    #    null=True
-    #)
+    location = gis_models.PointField(
+        verbose_name=_('longitud/latitud'),
+        geography=True,
+        blank=True,
+        null=True
+    )
 
-    food_type = models.IntegerField(
+    food_type = models.ForeignKey(
+        'FoodType',
+        on_delete=models.CASCADE,
         verbose_name=_('Tipo de Comida'),
-        default=0
     )
 
     price_from = models.FloatField(
