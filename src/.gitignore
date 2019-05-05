@@ -13,3 +13,4 @@ src/locale/*/LC_MESSAGES/django.po
 
 .venv/
 .vscode/
+node_modules/

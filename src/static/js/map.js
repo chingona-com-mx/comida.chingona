@@ -1,15 +1,17 @@
+import { Map, View } from 'ol';
+import TileLayer from 'ol/layer/Tile';
+import { OSM } from 'ol/source';
+import { fromLonLat } from 'ol/proj';
 
-
-
-let map = new ol.Map({
+let map = new Map({
 	target: 'map',
 	layers: [
-		new ol.layer.Tile({
-			source: new ol.source.OSM()
+		new TileLayer({
+			source: new OSM()
 		})
 	],
-	view: new ol.View({
-		center: ol.proj.fromLonLat([-99.14, 19.43]),
+	view: new View({
+		center: fromLonLat([-99.14, 19.43]),
 		zoom: 9
 	})
 });
