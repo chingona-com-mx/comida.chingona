@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <!-- Open layers CSS -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
     {% block head %}
@@ -18,8 +16,6 @@
         {% block content %}
         {% endblock %}
     </div>
-    <!-- Openlayers JS -->
-    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
-    <script src="{% static 'dist/main.js' %}"></script>
+    <script src="{% static 'dist/bundle.js' %}"></script>
 </body>
 </html>
