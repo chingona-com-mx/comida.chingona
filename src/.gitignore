@@ -10,3 +10,6 @@ src/static/
 
 # Files for customer
 src/locale/*/LC_MESSAGES/django.po
+
+.venv/
+.vscode/
