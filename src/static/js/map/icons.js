@@ -38,7 +38,7 @@ function createIcon(place) {
 
     return icon;
 }
-console.log(places.map(createIcon))
+
 let vectorSource = new VectorSource({
     features: places.map(createIcon)
 });

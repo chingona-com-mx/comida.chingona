@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     # Locales
     'applications.maps',
     'applications.core',
+
+    # 3th
+    'rest_framework',
+    'rest_framework_gis',
 ]
 
 MIDDLEWARE = [

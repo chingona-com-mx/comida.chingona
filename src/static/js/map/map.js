@@ -6,7 +6,6 @@ import { fromLonLat } from 'ol/proj';
 
 import vectorLayer from './icons'
 
-
 let map = new Map({
 	target: 'map',
 	layers: [
