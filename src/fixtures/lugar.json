@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Garnachas",
+        "description": "Un lugar para comer garnachas",
+        "address": "Iztapalala",
+        "food_type": 1,
+        "price_from": 30,
+        "price_to": 150,
+        "rating": 4.5,
+        "comments": "",
+        "contact": "",
+        "url_blog": "",
+        "location": "POINT (-99.14 19.43)"
+    }
+]

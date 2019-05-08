@@ -1,0 +1,38 @@
+{
+  "name": "comida_chingona",
+  "version": "1.0.0",
+  "description": "Sitio web para encontrar comida chingona en México",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelead0/comida.chingona.git"
+  },
+  "keywords": [
+    "Django",
+    "Python",
+    "CDMX",
+    "comida",
+    "Webpack",
+    "openlayers"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixelead0/comida.chingona/issues"
+  },
+  "homepage": "https://github.com/pixelead0/comida.chingona#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "ol": "^5.3.2"
+  }
+}

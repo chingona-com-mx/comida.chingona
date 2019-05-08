@@ -10,7 +10,9 @@ services:
         POSTGRES_PASSWORD: tengohambre
         POSTGRES_DB: comida_chingona
   web:
-    build: .
+    build:
+      context: .
+      dockerfile: ./compose/django/Dockerfile
     # Se crea usuario administrador (user: comelon psw:tengohambre)
     # Siempre se va a sobreescribir el usuario.
     command: bash -c "python manage.py wait_for_db && python manage.py loaddata fixtures/user.json && python manage.py runserver 0.0.0.0:8000"
@@ -23,3 +25,12 @@ services:
       - "8000:8000"
     depends_on:
       - db
+  webpack:
+    build:
+      context: .
+      dockerfile: ./compose/webpack_ol/Dockerfile
+    command: sh -c "npm install && npm run watch"
+    volumes:
+      - ./src:/src
+    depends_on:
+      - web
