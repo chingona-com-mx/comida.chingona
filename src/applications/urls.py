@@ -19,5 +19,5 @@ from applications.maps import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('maps/', include('applications.maps.urls'), name='home'),
+    path('', include('applications.maps.urls'), name='home'),
 ]

@@ -7,7 +7,7 @@ from applications.maps.models import FoodLocation
 
 
 class FoodLocationSerializer(GeoFeatureModelSerializer):
-    """Serializer para agregar o mostrar lugares de comida"""
+    """Serializer para agregar/mostrar lugares de comida"""
     class Meta:
         model = FoodLocation
         geo_field = 'location'
