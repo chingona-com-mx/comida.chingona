@@ -1,15 +1,31 @@
 [
-    {
-        "name": "Garnachas",
-        "description": "Un lugar para comer garnachas",
-        "address": "Iztapalala",
-        "food_type": 1,
-        "price_from": 30,
-        "price_to": 150,
-        "rating": 4.5,
-        "comments": "",
-        "contact": "",
-        "url_blog": "",
-        "location": "POINT (-99.14 19.43)"
-    }
+{
+  "model": "maps.foodtype",
+  "pk": 1,
+  "fields": {
+    "name": "Garnachas",
+    "created": "2019-05-08",
+    "updated": "2019-05-08"
+  }
+},
+{
+  "model": "maps.foodlocation",
+  "pk": 1,
+  "fields": {
+    "name": "Garnachas",
+    "description": "Un lugar para comer garnachas",
+    "address": "Iztapalala",
+    "location": "SRID=4326;POINT (-99.1530063 19.4467076)",
+    "food_type": 1,
+    "price_from": 10.0,
+    "price_to": 20.0,
+    "rating": 100.0,
+    "comments": "OK",
+    "contact": "",
+    "url_blog": "",
+    "created": "2019-05-08",
+    "updated": "2019-05-08"
+  }
+}
 ]
+
